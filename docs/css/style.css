@@ -1,0 +1,97 @@
+*{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+.navbar-brand h1{
+	color:black;
+	font-weight:bold;
+	font-size:1.5em;
+}
+
+.navbar-brand a:hover{
+	text-decoration:none;
+}
+
+#header-nav{
+	background-color:gray;
+	border: 2px solid black;
+}
+
+#header-nav button{
+	border-color:black;	
+}
+
+#header-nav button span{
+	color:black;
+}
+
+#header-nav button:active, #header-nav button:focus{
+	outline:0;
+}
+
+.navbar-nav{
+	margin:5px -15px -7px -15px;
+	background-color:white;
+}
+
+.navbar-nav a{
+	padding:2px;
+}
+
+.navbar-nav hr{
+	margin:0;
+	width:100%;
+	color:black;
+	border-top: 2px solid black;
+}
+
+.navbar-nav a p{
+	text-align:center;
+	margin:0;
+	color:black;
+}
+
+#main h2{
+	font-size:1.4em;
+	padding:15px;
+	font-weight:bold;
+	margin:10px;
+}
+
+#chicken, #beef, #sushi{
+	margin:1px;
+	background-color:gray;
+	padding:15px;
+}
+
+.tile h3{
+	color:black;
+	text-weight:bold;
+	font-size:1.3em;
+}
+
+.tile span{
+	color:black;
+	font-size:1em;
+	text-weight:bold;
+}
+
+.tile a{
+	text-decoration:underline;
+}
+
+@media (min-width:576px) and (max-width:991px){
+	#sushi{
+		margin-top: 25px;
+	}
+}
+
+@media (max-width:575px){
+	.navbar-brand h1{
+	font-size:1.1em;
+	}
+	
+	#chicken, #beef, #chicken{
+		margin-bottom: 25px;
+	}
+}
