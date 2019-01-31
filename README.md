@@ -11,3 +11,5 @@
 
 #Assignment 4 is a simple introduction to javascript exercise using immediate invoked function expression to prevent global
 #variables from conflicting each other.
+
+#Assignment 5 is simple randomizer for chef's special every time the page is loaded.  <a href=https://dereky1.github.io/courserarepo/assignment5/index.html> Link Here #2</a>
